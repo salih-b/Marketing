@@ -1,0 +1,69 @@
+// Navigation code here
+.navigations{
+    // background-color: lightgrey;
+    
+    // position: fixed;
+    .width(100%);
+    // opacity: 90%;
+    .flex(space-between, baseline);
+    margin-bottom: .5%;
+    .getApp{
+        .flex(end, center);
+        // .width(10%);
+        a{
+           .text(grey, 1.4rem);
+        }
+        img{
+            .width(60%);
+           
+        }
+    }
+    .logo a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.logo{
+    transform: translate(-50%, 29%);
+    .flex(center, baseline);
+    
+    @media (max-width:800px){
+        transform: translate(-25%, 29%);
+    }
+    @media (max-width:500px){
+        transform: translate(-100%, 33%);
+    }
+
+    img{
+        height: 90px;
+        @media (max-width:500px){
+            height: 60px;
+        }
+    }
+}
+    nav {
+        .flex(space-around, baseline);
+        .width(14%);
+        // margin-top: 2%;
+        // @media @phone{
+        //     width:100%;
+        // }
+        @media (max-width:800px){
+            width:20%;
+        }
+        
+        a {
+            .text(grey, 1.6rem);
+            @media (max-width:500px){
+                .text(green, 2rem);
+            }
+
+        }
+        #signup_mobile{
+            @media (max-width:500px){
+                display: none;
+            }
+        }
+    }
+
+} //nav ends
