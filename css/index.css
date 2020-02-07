@@ -397,3 +397,28 @@ footer p {
   font-size: 1rem;
   padding: 2%;
 }
+.main_blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main_blog .blog_1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 2%;
+}
+.main_blog .blog_1 h1 {
+  font-size: 4rem;
+  margin: 4% 0%;
+}
+.main_blog .blog_2 {
+  margin: 2% 2%;
+  border-top: 2px black double;
+  padding: 1%;
+}
+.main_blog .blog_2 h2 {
+  font-size: 3rem;
+  margin: 2% 0%;
+}
